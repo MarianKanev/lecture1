@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block heading %}
+    Second Page
+{% endblock %}
+
+{% block body%}
+    <p>
+        Print some additional info here
+    </p>
+    
+    <a href="{{ url_for('index') }}">Go BACK</a>
+{% endblock %}
+
