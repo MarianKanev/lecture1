@@ -1,5 +1,7 @@
 from flask import Flask, render_template, request
 
+# Have to set in Power Shell:  $env:FLASK_APP="appl_forms.py"
+
 app = Flask(__name__)
 
 # This is called if open 127.0.0.1:5000 ( main route)
